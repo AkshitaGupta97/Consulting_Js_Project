@@ -1,0 +1,63 @@
+ /* Import Google fonts*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+img {
+    width: 100%;
+}
+.section-content {
+    margin: 0 auto;
+    padding: 0 22px;
+  /*  max-width: var(--site-max-width);*/
+}
+
+/* navbar style*/
+header * {
+    color: white;
+}
+header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
